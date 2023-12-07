@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace ApatmanOtomasyonuD
 {
-    public partial class Form1 : Form
+    public partial class Gelirler : Form
     {
-        public Form1()
+        public Gelirler()
         {
             InitializeComponent();
-        }
-
-        private void gelirler_Click(object sender, EventArgs e)
-        {
-            new Gelirler().Show();
-        }
-
-        private void giderler_Click(object sender, EventArgs e)
-        {
-            new Giderler().Show();
         }
     }
 }
