@@ -64,7 +64,7 @@
             this.Controls.Add(this.gelirler);
             this.Controls.Add(this.giderler);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "ApartmanOtomasyonu";
             this.ResumeLayout(false);
 
         }

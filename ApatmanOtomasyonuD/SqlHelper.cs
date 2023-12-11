@@ -15,8 +15,8 @@ namespace ApatmanOtomasyonuD
         public SqlConnection Connection { get; set; }
         public SqlHelper() 
         { 
-            Connection = new SqlConnection();
             ConnectionString = "Data Source=AHMET\\SQLEXPRESS;Initial Catalog=Apartman;Integrated Security=True";
+            Connection = new SqlConnection(ConnectionString);
         }
         public void ExecuteProc(String procName,params SqlParameter[] ps)
         {
